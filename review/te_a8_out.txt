@@ -1,0 +1,30 @@
+﻿    panel      split  corr_level  first_near_top10pct  cc_max  sd_dcc  corr_change
+ D7_I10_E      train       0.025                0.029   1.024   0.000          NaN
+ D7_I10_E validation      -0.024                0.034   0.936   0.027        0.099
+ D7_I10_E    private       0.020                0.138   0.930   0.030       -0.002
+ D7_I10_W      train       0.105                0.946   0.919   0.000          NaN
+ D7_I10_W validation       0.114                1.000   0.902   0.035        0.151
+ D7_I10_W    private       0.089                0.000   0.987   0.033        0.025
+D7_I210_E      train      -0.058                0.795   0.965   0.000          NaN
+D7_I210_E validation      -0.050                0.806   0.969   0.024       -0.009
+D7_I210_E    private      -0.012                0.833   0.951   0.024        0.204
+D7_I210_W      train       0.326                0.967   1.013   0.000          NaN
+D7_I210_W validation       0.306                0.935   1.081   0.051        0.270
+D7_I210_W    private       0.311                0.967   1.000   0.048        0.004
+D7_I405_N      train      -0.352                0.007   0.937   0.000          NaN
+D7_I405_N validation      -0.369                0.968   0.919   0.019        0.041
+D7_I405_N    private      -0.318                0.033   0.888   0.024        0.003
+D7_I405_S      train      -0.111                0.541   0.910   0.000          NaN
+D7_I405_S validation      -0.127                0.129   0.905   0.032       -0.017
+D7_I405_S    private      -0.139                0.000   0.935   0.038        0.030
+ D12_I5_N      train       0.042                0.905   1.028   0.000          NaN
+ D12_I5_N validation      -0.062                0.692   0.970   0.032       -0.057
+ D12_I5_N    private      -0.145                0.885   0.990   0.035        0.160
+ D12_I5_S      train      -0.193                0.355   1.061   0.000          NaN
+ D12_I5_S validation      -0.054                0.467   1.102   0.041       -0.118
+ D12_I5_S    private      -0.136                0.552   1.157   0.046        0.138
+            corr_level  first_near_top10pct  corr_change  sd_dcc
+split                                                           
+private         -0.041                0.426        0.070   0.035
+train           -0.027                0.568          NaN   0.000
+validation      -0.033                0.629        0.045   0.033

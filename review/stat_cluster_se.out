@@ -1,0 +1,7 @@
+﻿S_queue null SE (x0.68 calibration): independent windows vs panel-clustered signs
+v8   ->v9npp validation max|dS| 0.134  SE_ind 0.0211  SE_panel-clustered(upper) 0.0420  (total x0.3: 0.0063 / 0.0126)
+v8   ->v9npp private    max|dS| 0.104  SE_ind 0.0171  SE_panel-clustered(upper) 0.0325  (total x0.3: 0.0051 / 0.0098)
+v9npp->s17   validation max|dS| 0.163  SE_ind 0.0239  SE_panel-clustered(upper) 0.0488  (total x0.3: 0.0072 / 0.0146)
+v9npp->s17   private    max|dS| 0.150  SE_ind 0.0211  SE_panel-clustered(upper) 0.0445  (total x0.3: 0.0063 / 0.0133)
+s17  ->s23   validation max|dS| 0.035  SE_ind 0.0067  SE_panel-clustered(upper) 0.0105  (total x0.3: 0.0020 / 0.0032)
+s17  ->s23   private    max|dS| 0.030  SE_ind 0.0062  SE_panel-clustered(upper) 0.0086  (total x0.3: 0.0019 / 0.0026)

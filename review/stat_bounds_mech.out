@@ -1,0 +1,35 @@
+﻿# (1) Jaccard-distance bound per pair: mean d (= max |dS| for that condition), null SE sqrt(sum d^2)/n, #windows d>0.5
+v8   ->v9npp validation onset   max 0.201 nullSE 0.058 n>0.5  5 | ongoing max 0.067 nullSE 0.022 n>0.5  1
+v8   ->v9npp private    onset   max 0.145 nullSE 0.047 n>0.5  6 | ongoing max 0.064 nullSE 0.017 n>0.5  0
+v9npp->s17   validation onset   max 0.219 nullSE 0.063 n>0.5  8 | ongoing max 0.107 nullSE 0.030 n>0.5  3
+v9npp->s17   private    onset   max 0.182 nullSE 0.056 n>0.5  6 | ongoing max 0.119 nullSE 0.026 n>0.5  0
+s17L ->s17   validation onset   max 0.169 nullSE 0.055 n>0.5  7 | ongoing max 0.097 nullSE 0.024 n>0.5  1
+s17L ->s17   private    onset   max 0.119 nullSE 0.043 n>0.5  4 | ongoing max 0.120 nullSE 0.025 n>0.5  0
+s17  ->s23   validation onset   max 0.044 nullSE 0.018 n>0.5  0 | ongoing max 0.026 nullSE 0.007 n>0.5  0
+s17  ->s23   private    onset   max 0.021 nullSE 0.015 n>0.5  0 | ongoing max 0.038 nullSE 0.011 n>0.5  0
+s16  ->s17   validation onset   max 0.130 nullSE 0.042 n>0.5  3 | ongoing max 0.054 nullSE 0.013 n>0.5  0
+s16  ->s17   private    onset   max 0.089 nullSE 0.038 n>0.5  3 | ongoing max 0.084 nullSE 0.020 n>0.5  0
+S_queue = (onset+ongoing)/2 ; total = 0.30*S_queue
+
+# (2) per-link free-flow offset (test month vs train) vs change of congestion rate at that link
+    panel      split  n_hot  rho_all  rho_hot  d_gain  d_lose
+ D7_I10_E validation     38    0.116    0.184   0.099  -0.510
+ D7_I10_E    private     38    0.068    0.095   0.162   0.030
+ D7_I10_W validation      5   -0.039   -0.975   0.032     NaN
+ D7_I10_W    private      5   -0.061    0.359     NaN  -0.578
+D7_I210_E validation      5    0.061    0.400     NaN   0.204
+D7_I210_E    private      5    0.012   -0.100   0.169     NaN
+D7_I210_W validation     24    0.167    0.371   0.155  -0.184
+D7_I210_W    private     24    0.129    0.075   0.443  -0.344
+D7_I405_N validation    304    0.053    0.051   3.393   0.058
+D7_I405_N    private    304    0.048    0.076   1.575   0.068
+D7_I405_S validation     42    0.115    0.065   0.249  -0.224
+D7_I405_S    private     42   -0.038   -0.115  -0.051  -0.137
+ D12_I5_N validation    135   -0.002    0.026     NaN   0.021
+ D12_I5_N    private    135   -0.041   -0.090  -0.241  -0.034
+ D12_I5_S validation     54    0.050    0.041  -0.016  -0.205
+ D12_I5_S    private     54   -0.137   -0.077  -0.154   0.047
+            rho_all  rho_hot  d_gain  d_lose
+split                                       
+private      -0.002    0.028   0.272  -0.135
+validation    0.065    0.020   0.652  -0.120

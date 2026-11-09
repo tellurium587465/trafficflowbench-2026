@@ -1,0 +1,10 @@
+﻿D7_I10_E    lead-lag corr low->high +0.253 vs high->low +0.011 (46 pairs) | queue 30 min after onset extends to lower index on 20 days, higher index on 18 days
+D7_I10_W    lead-lag corr low->high +0.360 vs high->low +0.044 (32 pairs) | queue 30 min after onset extends to lower index on 49 days, higher index on 50 days
+D7_I210_E   lead-lag corr low->high +0.169 vs high->low +0.026 (97 pairs) | queue 30 min after onset extends to lower index on 20 days, higher index on 21 days
+D7_I210_W   lead-lag corr low->high +0.223 vs high->low +0.040 (22 pairs) | queue 30 min after onset extends to lower index on 70 days, higher index on 62 days
+D7_I405_N   lead-lag corr low->high +0.192 vs high->low +0.017 (112 pairs) | queue 30 min after onset extends to lower index on 61 days, higher index on 18 days
+D7_I405_S   lead-lag corr low->high +0.257 vs high->low +0.003 (30 pairs) | queue 30 min after onset extends to lower index on 57 days, higher index on 37 days
+D12_I5_N    lead-lag corr low->high +0.263 vs high->low +0.017 (77 pairs) | queue 30 min after onset extends to lower index on 42 days, higher index on 80 days
+D12_I5_S    lead-lag corr low->high +0.271 vs high->low +0.019 (28 pairs) | queue 30 min after onset extends to lower index on 54 days, higher index on 59 days
+D12_I405_N  lead-lag corr low->high +0.369 vs high->low +0.013 (29 pairs) | queue 30 min after onset extends to lower index on 25 days, higher index on 17 days
+D12_I405_S  lead-lag corr low->high +0.287 vs high->low +0.021 (13 pairs) | queue 30 min after onset extends to lower index on 19 days, higher index on 18 days

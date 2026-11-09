@@ -1,0 +1,230 @@
+candidate A8 ({'TFB_T2_ONSET_SEEDS': '8', 'TFB_T2_OG_FAMILY': 'q24f', 'TFB_T2_OG_SEEDS_PRIV': '8', 'TFB_T2_MIX_SPLITS': 'private', 'TFB_T2_PHYS_A': 'adaptive', 'TFB_T2_LGB_A': '0.2', 'TFB_T2_TFM': 'validation:tfm4_s0+tfm4_s1+tfm4_s2+tfm4_s3+tfm4_s4;private:tfm4_s0+tfm4_s1+tfm4_s2+tfm4_s3+tfm4_s4', 'TFB_T2_TFM_CONDS': 'queue_ongoing', 'TFB_T2_X1ARM': 'sd', 'TFB_T2_OGX3': 'x3af_s0+x3af_s1', 'TFB_T2_OGTE': '1.2', 'TFB_T2_GATE2': '1'}, choice base,0,x1,0,1), reference C:/Users/user/tfb/work/t2/queue_finA8.parquet, windows 160
+[1] Q2_D7_I10_E_validation_001 (queue_onset, day 1, 7s): rows deleted 2307172 of 2339136 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I10_E_validation_002 (queue_onset, day 2, 13s): rows deleted 2224380 of 2339136 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I10_E_validation_003 (queue_onset, day 3, 19s): rows deleted 2164382 of 2339136 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I10_E_validation_004 (queue_onset, day 4, 25s): rows deleted 2072944 of 2339136 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I10_E_validation_005 (queue_onset, day 5, 31s): rows deleted 1994868 of 2339136 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I10_E_validation_006 (queue_ongoing, day 1, 37s): rows deleted 2286736 of 2339136 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I10_E_validation_007 (queue_ongoing, day 3, 44s): rows deleted 2144208 of 2339136 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I10_E_validation_008 (queue_ongoing, day 3, 50s): rows deleted 2125344 of 2339136 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I10_E_validation_009 (queue_ongoing, day 6, 56s): rows deleted 1936966 of 2339136 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I10_E_validation_010 (queue_ongoing, day 6, 62s): rows deleted 1918102 of 2339136 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I10_E_private_001 (queue_onset, day 1, 68s): rows deleted 2223332 of 2263680 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I10_E_private_002 (queue_onset, day 2, 74s): rows deleted 2149972 of 2263680 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I10_E_private_003 (queue_onset, day 3, 79s): rows deleted 2091808 of 2263680 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I10_E_private_004 (queue_onset, day 4, 85s): rows deleted 2013732 of 2263680 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I10_E_private_005 (queue_onset, day 5, 91s): rows deleted 1933298 of 2263680 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I10_E_private_006 (queue_ongoing, day 3, 97s): rows deleted 2071110 of 2263680 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I10_E_private_007 (queue_ongoing, day 3, 103s): rows deleted 2047792 of 2263680 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I10_E_private_008 (queue_ongoing, day 4, 109s): rows deleted 1994082 of 2263680 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I10_E_private_009 (queue_ongoing, day 5, 116s): rows deleted 1902120 of 2263680 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I10_E_private_010 (queue_ongoing, day 6, 122s): rows deleted 1840288 of 2263680 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I10_W_validation_001 (queue_onset, day 1, 128s): rows deleted 1946052 of 1982016 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I10_W_validation_002 (queue_onset, day 2, 133s): rows deleted 1881672 of 1982016 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I10_W_validation_003 (queue_onset, day 3, 139s): rows deleted 1839270 of 1982016 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I10_W_validation_004 (queue_onset, day 3, 144s): rows deleted 1816404 of 1982016 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I10_W_validation_005 (queue_onset, day 4, 149s): rows deleted 1775556 of 1982016 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I10_W_validation_006 (queue_ongoing, day 4, 155s): rows deleted 1751580 of 1982016 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I10_W_validation_007 (queue_ongoing, day 5, 161s): rows deleted 1704738 of 1982016 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I10_W_validation_008 (queue_ongoing, day 8, 167s): rows deleted 1487622 of 1982016 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I10_W_validation_009 (queue_ongoing, day 11, 173s): rows deleted 1324896 of 1982016 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I10_W_validation_010 (queue_ongoing, day 11, 179s): rows deleted 1304694 of 1982016 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I10_W_private_001 (queue_onset, day 3, 185s): rows deleted 1752468 of 1918080 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I10_W_private_002 (queue_onset, day 5, 191s): rows deleted 1624596 of 1918080 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I10_W_private_003 (queue_onset, day 7, 197s): rows deleted 1520034 of 1918080 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I10_W_private_004 (queue_onset, day 7, 203s): rows deleted 1496946 of 1918080 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I10_W_private_005 (queue_onset, day 9, 208s): rows deleted 1367520 of 1918080 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I10_W_private_006 (queue_ongoing, day 10, 214s): rows deleted 1303140 of 1918080 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I10_W_private_007 (queue_ongoing, day 12, 220s): rows deleted 1175268 of 1918080 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I10_W_private_008 (queue_ongoing, day 13, 226s): rows deleted 1111554 of 1918080 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I10_W_private_009 (queue_ongoing, day 15, 232s): rows deleted 983460 of 1918080 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I10_W_private_010 (queue_ongoing, day 17, 242s): rows deleted 854256 of 1918080 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I210_E_validation_001 (queue_onset, day 1, 253s): rows deleted 3487850 of 3526560 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I210_E_validation_002 (queue_onset, day 2, 264s): rows deleted 3364610 of 3526560 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I210_E_validation_003 (queue_onset, day 3, 276s): rows deleted 3269810 of 3526560 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I210_E_validation_004 (queue_onset, day 4, 286s): rows deleted 3151310 of 3526560 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I210_E_validation_005 (queue_onset, day 5, 296s): rows deleted 3042290 of 3526560 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I210_E_validation_006 (queue_ongoing, day 1, 306s): rows deleted 3433340 of 3526560 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I210_E_validation_007 (queue_ongoing, day 2, 315s): rows deleted 3331430 of 3526560 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I210_E_validation_008 (queue_ongoing, day 3, 323s): rows deleted 3208190 of 3526560 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I210_E_validation_009 (queue_ongoing, day 4, 331s): rows deleted 3106280 of 3526560 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I210_E_validation_010 (queue_ongoing, day 5, 340s): rows deleted 2975930 of 3526560 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I210_E_private_001 (queue_onset, day 1, 347s): rows deleted 3381200 of 3412800 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I210_E_private_002 (queue_onset, day 2, 355s): rows deleted 3267440 of 3412800 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I210_E_private_003 (queue_onset, day 3, 363s): rows deleted 3156050 of 3412800 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I210_E_private_004 (queue_onset, day 4, 371s): rows deleted 3042290 of 3412800 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I210_E_private_005 (queue_onset, day 5, 378s): rows deleted 2919050 of 3412800 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I210_E_private_006 (queue_ongoing, day 1, 386s): rows deleted 3321950 of 3412800 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I210_E_private_007 (queue_ongoing, day 2, 393s): rows deleted 3206215 of 3412800 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I210_E_private_008 (queue_ongoing, day 3, 401s): rows deleted 3087320 of 3412800 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I210_E_private_009 (queue_ongoing, day 4, 409s): rows deleted 2968820 of 3412800 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I210_E_private_010 (queue_ongoing, day 5, 417s): rows deleted 2862170 of 3412800 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I210_W_validation_001 (queue_onset, day 1, 424s): rows deleted 1659852 of 1678464 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I210_W_validation_002 (queue_onset, day 2, 431s): rows deleted 1603452 of 1678464 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I210_W_validation_003 (queue_onset, day 3, 437s): rows deleted 1559460 of 1678464 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I210_W_validation_004 (queue_onset, day 4, 444s): rows deleted 1504188 of 1678464 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I210_W_validation_005 (queue_onset, day 4, 451s): rows deleted 1489900 of 1678464 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I210_W_validation_006 (queue_ongoing, day 1, 458s): rows deleted 1646316 of 1678464 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I210_W_validation_007 (queue_ongoing, day 1, 465s): rows deleted 1632780 of 1678464 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I210_W_validation_008 (queue_ongoing, day 2, 471s): rows deleted 1585216 of 1678464 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I210_W_validation_009 (queue_ongoing, day 3, 478s): rows deleted 1542728 of 1678464 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I210_W_validation_010 (queue_ongoing, day 3, 485s): rows deleted 1529192 of 1678464 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I210_W_private_001 (queue_onset, day 1, 492s): rows deleted 1613416 of 1624320 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I210_W_private_002 (queue_onset, day 2, 498s): rows deleted 1558332 of 1624320 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I210_W_private_003 (queue_onset, day 3, 505s): rows deleted 1505128 of 1624320 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I210_W_private_004 (queue_onset, day 4, 512s): rows deleted 1449668 of 1624320 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I210_W_private_005 (queue_onset, day 4, 519s): rows deleted 1435004 of 1624320 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I210_W_private_006 (queue_ongoing, day 1, 525s): rows deleted 1596120 of 1624320 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I210_W_private_007 (queue_ongoing, day 1, 532s): rows deleted 1581832 of 1624320 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I210_W_private_008 (queue_ongoing, day 2, 539s): rows deleted 1544796 of 1624320 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I210_W_private_009 (queue_ongoing, day 2, 545s): rows deleted 1531260 of 1624320 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I210_W_private_010 (queue_ongoing, day 3, 552s): rows deleted 1487644 of 1624320 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I405_N_validation_001 (queue_onset, day 1, 561s): rows deleted 3993080 of 4062240 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I405_N_validation_002 (queue_onset, day 2, 569s): rows deleted 3858855 of 4062240 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I405_N_validation_003 (queue_onset, day 3, 577s): rows deleted 3768765 of 4062240 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I405_N_validation_004 (queue_onset, day 4, 585s): rows deleted 3640910 of 4062240 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I405_N_validation_005 (queue_onset, day 5, 593s): rows deleted 3507140 of 4062240 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I405_N_validation_006 (queue_ongoing, day 1, 600s): rows deleted 3960320 of 4062240 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I405_N_validation_007 (queue_ongoing, day 3, 608s): rows deleted 3734185 of 4062240 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I405_N_validation_008 (queue_ongoing, day 3, 616s): rows deleted 3693690 of 4062240 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I405_N_validation_009 (queue_ongoing, day 4, 624s): rows deleted 3606785 of 4062240 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I405_N_validation_010 (queue_ongoing, day 4, 633s): rows deleted 3560375 of 4062240 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I405_N_private_001 (queue_onset, day 1, 641s): rows deleted 3899805 of 3931200 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I405_N_private_002 (queue_onset, day 1, 648s): rows deleted 3866590 of 3931200 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I405_N_private_003 (queue_onset, day 2, 656s): rows deleted 3768765 of 3931200 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I405_N_private_004 (queue_onset, day 2, 664s): rows deleted 3734185 of 3931200 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I405_N_private_005 (queue_onset, day 3, 673s): rows deleted 3638180 of 3931200 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I405_N_private_006 (queue_ongoing, day 1, 679s): rows deleted 3830190 of 3931200 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I405_N_private_007 (queue_ongoing, day 2, 686s): rows deleted 3701425 of 3931200 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I405_N_private_008 (queue_ongoing, day 3, 692s): rows deleted 3605420 of 3931200 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I405_N_private_009 (queue_ongoing, day 3, 698s): rows deleted 3563560 of 3931200 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I405_N_private_010 (queue_ongoing, day 4, 704s): rows deleted 3503045 of 3931200 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I405_S_validation_001 (queue_onset, day 1, 710s): rows deleted 1957374 of 1982016 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I405_S_validation_002 (queue_onset, day 2, 715s): rows deleted 1893438 of 1982016 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I405_S_validation_003 (queue_onset, day 3, 721s): rows deleted 1834830 of 1982016 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I405_S_validation_004 (queue_onset, day 4, 727s): rows deleted 1771116 of 1982016 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I405_S_validation_005 (queue_onset, day 5, 733s): rows deleted 1706958 of 1982016 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I405_S_validation_006 (queue_ongoing, day 1, 738s): rows deleted 1938726 of 1982016 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I405_S_validation_007 (queue_ongoing, day 2, 743s): rows deleted 1873236 of 1982016 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I405_S_validation_008 (queue_ongoing, day 3, 749s): rows deleted 1817070 of 1982016 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I405_S_validation_009 (queue_ongoing, day 4, 754s): rows deleted 1753356 of 1982016 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I405_S_validation_010 (queue_ongoing, day 4, 760s): rows deleted 1737372 of 1982016 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I405_S_private_001 (queue_onset, day 2, 766s): rows deleted 1821510 of 1918080 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I405_S_private_002 (queue_onset, day 3, 771s): rows deleted 1770894 of 1918080 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I405_S_private_003 (queue_onset, day 5, 777s): rows deleted 1635252 of 1918080 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I405_S_private_004 (queue_onset, day 6, 782s): rows deleted 1560438 of 1918080 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I405_S_private_005 (queue_onset, day 7, 788s): rows deleted 1515150 of 1918080 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I405_S_private_006 (queue_ongoing, day 3, 793s): rows deleted 1754910 of 1918080 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I405_S_private_007 (queue_ongoing, day 5, 799s): rows deleted 1619268 of 1918080 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I405_S_private_008 (queue_ongoing, day 7, 804s): rows deleted 1497612 of 1918080 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I405_S_private_009 (queue_ongoing, day 7, 810s): rows deleted 1481628 of 1918080 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D7_I405_S_private_010 (queue_ongoing, day 8, 815s): rows deleted 1449438 of 1918080 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D12_I5_N_validation_001 (queue_onset, day 1, 822s): rows deleted 3251190 of 3303360 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D12_I5_N_validation_002 (queue_onset, day 2, 828s): rows deleted 3137600 of 3303360 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D12_I5_N_validation_003 (queue_onset, day 3, 833s): rows deleted 3017350 of 3303360 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D12_I5_N_validation_004 (queue_onset, day 5, 839s): rows deleted 2809780 of 3303360 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D12_I5_N_validation_005 (queue_onset, day 7, 849s): rows deleted 2606280 of 3303360 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D12_I5_N_validation_006 (queue_ongoing, day 1, 858s): rows deleted 3223810 of 3303360 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D12_I5_N_validation_007 (queue_ongoing, day 9, 869s): rows deleted 2386870 of 3303360 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D12_I5_N_validation_008 (queue_ongoing, day 10, 880s): rows deleted 2281790 of 3303360 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D12_I5_N_validation_009 (queue_ongoing, day 12, 890s): rows deleted 2095310 of 3303360 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D12_I5_N_validation_010 (queue_ongoing, day 12, 899s): rows deleted 2067930 of 3303360 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D12_I5_N_private_001 (queue_onset, day 1, 907s): rows deleted 3137600 of 3196800 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D12_I5_N_private_002 (queue_onset, day 2, 914s): rows deleted 3032520 of 3196800 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D12_I5_N_private_003 (queue_onset, day 3, 921s): rows deleted 2928550 of 3196800 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D12_I5_N_private_004 (queue_onset, day 4, 929s): rows deleted 2826430 of 3196800 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D12_I5_N_private_005 (queue_onset, day 5, 937s): rows deleted 2726530 of 3196800 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D12_I5_N_private_006 (queue_ongoing, day 3, 944s): rows deleted 2901910 of 3196800 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D12_I5_N_private_007 (queue_ongoing, day 4, 952s): rows deleted 2798310 of 3196800 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D12_I5_N_private_008 (queue_ongoing, day 5, 960s): rows deleted 2688420 of 3196800 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D12_I5_N_private_009 (queue_ongoing, day 7, 968s): rows deleted 2497500 of 3196800 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D12_I5_N_private_010 (queue_ongoing, day 8, 976s): rows deleted 2384650 of 3196800 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D12_I5_S_validation_001 (queue_onset, day 1, 983s): rows deleted 1827810 of 1848096 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D12_I5_S_validation_002 (queue_onset, day 2, 990s): rows deleted 1763226 of 1848096 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D12_I5_S_validation_003 (queue_onset, day 3, 996s): rows deleted 1694088 of 1848096 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D12_I5_S_validation_004 (queue_onset, day 4, 1003s): rows deleted 1636542 of 1848096 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D12_I5_S_validation_005 (queue_onset, day 5, 1010s): rows deleted 1591416 of 1848096 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D12_I5_S_validation_006 (queue_ongoing, day 1, 1017s): rows deleted 1812492 of 1848096 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D12_I5_S_validation_007 (queue_ongoing, day 2, 1023s): rows deleted 1748115 of 1848096 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D12_I5_S_validation_008 (queue_ongoing, day 4, 1030s): rows deleted 1621638 of 1848096 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D12_I5_S_validation_009 (queue_ongoing, day 5, 1037s): rows deleted 1574028 of 1848096 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D12_I5_S_validation_010 (queue_ongoing, day 6, 1044s): rows deleted 1511721 of 1848096 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D12_I5_S_private_001 (queue_onset, day 1, 1051s): rows deleted 1754739 of 1788480 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D12_I5_S_private_002 (queue_onset, day 2, 1058s): rows deleted 1710027 of 1788480 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D12_I5_S_private_003 (queue_onset, day 3, 1065s): rows deleted 1645857 of 1788480 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D12_I5_S_private_004 (queue_onset, day 4, 1072s): rows deleted 1591209 of 1788480 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D12_I5_S_private_005 (queue_onset, day 5, 1079s): rows deleted 1516482 of 1788480 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D12_I5_S_private_006 (queue_ongoing, day 2, 1086s): rows deleted 1695123 of 1788480 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D12_I5_S_private_007 (queue_ongoing, day 2, 1092s): rows deleted 1680219 of 1788480 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D12_I5_S_private_008 (queue_ongoing, day 3, 1099s): rows deleted 1630953 of 1788480 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D12_I5_S_private_009 (queue_ongoing, day 4, 1106s): rows deleted 1575891 of 1788480 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+[1] Q2_D12_I5_S_private_010 (queue_ongoing, day 4, 1113s): rows deleted 1560987 of 1788480 | a features (+0 TTA draws) == stored: True | b queue == queue_finA8.parquet: True (0 cells differ)
+phase 1: 160 / 160 windows pass
+[2] private day 1 (cut at 2031-04-01T12:25:00Z, 1124s): X1 training windows of days < 1: cut copy 10, stored 10 -> meta equal True, X / Y / EL equal True
+[2] private day 1 (cut at 2031-04-01T18:25:00Z, 1136s): X1 training windows of days < 1: cut copy 39, stored 39 -> meta equal True, X / Y / EL equal True
+[2] private day 1 (cut at 2031-04-01T19:05:00Z, 1148s): X1 training windows of days < 1: cut copy 45, stored 45 -> meta equal True, X / Y / EL equal True
+[2] private day 2 (cut at 2031-04-02T11:10:00Z, 1161s): X1 training windows of days < 2: cut copy 51, stored 51 -> meta equal True, X / Y / EL equal True
+[2] private day 2 (cut at 2031-04-02T13:30:00Z, 1174s): X1 training windows of days < 2: cut copy 57, stored 57 -> meta equal True, X / Y / EL equal True
+[2] private day 2 (cut at 2031-04-02T17:10:00Z, 1187s): X1 training windows of days < 2: cut copy 79, stored 79 -> meta equal True, X / Y / EL equal True
+[2] private day 2 (cut at 2031-04-02T18:00:00Z, 1201s): X1 training windows of days < 2: cut copy 86, stored 86 -> meta equal True, X / Y / EL equal True
+[2] private day 2 (cut at 2031-04-02T19:30:00Z, 1215s): X1 training windows of days < 2: cut copy 91, stored 91 -> meta equal True, X / Y / EL equal True
+[2] private day 3 (cut at 2031-04-03T11:35:00Z, 1229s): X1 training windows of days < 3: cut copy 105, stored 105 -> meta equal True, X / Y / EL equal True
+[2] private day 3 (cut at 2031-04-03T12:30:00Z, 1242s): X1 training windows of days < 3: cut copy 113, stored 113 -> meta equal True, X / Y / EL equal True
+[2] private day 3 (cut at 2031-04-03T13:10:00Z, 1252s): X1 training windows of days < 3: cut copy 121, stored 121 -> meta equal True, X / Y / EL equal True
+[2] private day 3 (cut at 2031-04-03T15:20:00Z, 1264s): X1 training windows of days < 3: cut copy 130, stored 130 -> meta equal True, X / Y / EL equal True
+[2] private day 3 (cut at 2031-04-03T18:20:00Z, 1276s): X1 training windows of days < 3: cut copy 157, stored 157 -> meta equal True, X / Y / EL equal True
+[2] private day 3 (cut at 2031-04-03T19:15:00Z, 1289s): X1 training windows of days < 3: cut copy 166, stored 166 -> meta equal True, X / Y / EL equal True
+[2] private day 3 (cut at 2031-04-03T20:35:00Z, 1301s): X1 training windows of days < 3: cut copy 175, stored 175 -> meta equal True, X / Y / EL equal True
+[2] private day 4 (cut at 2031-04-04T06:20:00Z, 1313s): X1 training windows of days < 4: cut copy 180, stored 180 -> meta equal True, X / Y / EL equal True
+[2] private day 4 (cut at 2031-04-04T13:30:00Z, 1326s): X1 training windows of days < 4: cut copy 203, stored 203 -> meta equal True, X / Y / EL equal True
+[2] private day 4 (cut at 2031-04-04T17:40:00Z, 1339s): X1 training windows of days < 4: cut copy 233, stored 233 -> meta equal True, X / Y / EL equal True
+[2] private day 4 (cut at 2031-04-04T19:30:00Z, 1351s): X1 training windows of days < 4: cut copy 250, stored 250 -> meta equal True, X / Y / EL equal True
+[2] private day 4 (cut at 2031-04-04T21:35:00Z, 1364s): X1 training windows of days < 4: cut copy 261, stored 261 -> meta equal True, X / Y / EL equal True
+[2] private day 5 (cut at 2031-04-05T16:05:00Z, 1377s): X1 training windows of days < 5: cut copy 309, stored 309 -> meta equal True, X / Y / EL equal True
+[2] private day 5 (cut at 2031-04-05T18:25:00Z, 1390s): X1 training windows of days < 5: cut copy 326, stored 326 -> meta equal True, X / Y / EL equal True
+[2] private day 5 (cut at 2031-04-05T20:05:00Z, 1404s): X1 training windows of days < 5: cut copy 340, stored 340 -> meta equal True, X / Y / EL equal True
+[2] private day 6 (cut at 2031-04-06T14:35:00Z, 1418s): X1 training windows of days < 6: cut copy 355, stored 355 -> meta equal True, X / Y / EL equal True
+[2] private day 7 (cut at 2031-04-07T13:25:00Z, 1433s): X1 training windows of days < 7: cut copy 398, stored 398 -> meta equal True, X / Y / EL equal True
+[2] private day 7 (cut at 2031-04-07T19:45:00Z, 1448s): X1 training windows of days < 7: cut copy 452, stored 452 -> meta equal True, X / Y / EL equal True
+[2] private day 8 (cut at 2031-04-08T07:50:00Z, 1463s): X1 training windows of days < 8: cut copy 462, stored 462 -> meta equal True, X / Y / EL equal True
+[2] private day 8 (cut at 2031-04-08T14:50:00Z, 1479s): X1 training windows of days < 8: cut copy 473, stored 473 -> meta equal True, X / Y / EL equal True
+[2] private day 10 (cut at 2031-04-10T14:45:00Z, 1496s): X1 training windows of days < 10: cut copy 724, stored 724 -> meta equal True, X / Y / EL equal True
+[2] private day 12 (cut at 2031-04-12T14:45:00Z, 1515s): X1 training windows of days < 12: cut copy 946, stored 946 -> meta equal True, X / Y / EL equal True
+[2] private day 13 (cut at 2031-04-13T14:40:00Z, 1535s): X1 training windows of days < 13: cut copy 1035, stored 1035 -> meta equal True, X / Y / EL equal True
+[2] private day 15 (cut at 2031-04-15T14:45:00Z, 1556s): X1 training windows of days < 15: cut copy 1171, stored 1171 -> meta equal True, X / Y / EL equal True
+[2] private day 17 (cut at 2031-04-17T15:15:00Z, 1579s): X1 training windows of days < 17: cut copy 1308, stored 1308 -> meta equal True, X / Y / EL equal True
+[2] validation day 1 (cut at 2031-03-01T14:10:00Z, 1588s): X1 training windows of days < 1: cut copy 11, stored 11 -> meta equal True, X / Y / EL equal True
+[2] validation day 1 (cut at 2031-03-01T16:10:00Z, 1598s): X1 training windows of days < 1: cut copy 20, stored 20 -> meta equal True, X / Y / EL equal True
+[2] validation day 1 (cut at 2031-03-01T17:50:00Z, 1608s): X1 training windows of days < 1: cut copy 27, stored 27 -> meta equal True, X / Y / EL equal True
+[2] validation day 1 (cut at 2031-03-01T18:35:00Z, 1620s): X1 training windows of days < 1: cut copy 35, stored 35 -> meta equal True, X / Y / EL equal True
+[2] validation day 1 (cut at 2031-03-01T19:35:00Z, 1630s): X1 training windows of days < 1: cut copy 40, stored 40 -> meta equal True, X / Y / EL equal True
+[2] validation day 1 (cut at 2031-03-01T20:10:00Z, 1640s): X1 training windows of days < 1: cut copy 47, stored 47 -> meta equal True, X / Y / EL equal True
+[2] validation day 2 (cut at 2031-03-02T16:10:00Z, 1651s): X1 training windows of days < 2: cut copy 62, stored 62 -> meta equal True, X / Y / EL equal True
+[2] validation day 2 (cut at 2031-03-02T17:05:00Z, 1662s): X1 training windows of days < 2: cut copy 70, stored 70 -> meta equal True, X / Y / EL equal True
+[2] validation day 3 (cut at 2031-03-03T12:00:00Z, 1673s): X1 training windows of days < 3: cut copy 99, stored 99 -> meta equal True, X / Y / EL equal True
+[2] validation day 3 (cut at 2031-03-03T13:50:00Z, 1684s): X1 training windows of days < 3: cut copy 102, stored 102 -> meta equal True, X / Y / EL equal True
+[2] validation day 3 (cut at 2031-03-03T18:05:00Z, 1695s): X1 training windows of days < 3: cut copy 129, stored 129 -> meta equal True, X / Y / EL equal True
+[2] validation day 3 (cut at 2031-03-03T19:05:00Z, 1706s): X1 training windows of days < 3: cut copy 134, stored 134 -> meta equal True, X / Y / EL equal True
+[2] validation day 4 (cut at 2031-03-04T11:20:00Z, 1718s): X1 training windows of days < 4: cut copy 144, stored 144 -> meta equal True, X / Y / EL equal True
+[2] validation day 4 (cut at 2031-03-04T13:45:00Z, 1729s): X1 training windows of days < 4: cut copy 152, stored 152 -> meta equal True, X / Y / EL equal True
+[2] validation day 4 (cut at 2031-03-04T14:25:00Z, 1741s): X1 training windows of days < 4: cut copy 156, stored 156 -> meta equal True, X / Y / EL equal True
+[2] validation day 4 (cut at 2031-03-04T16:35:00Z, 1753s): X1 training windows of days < 4: cut copy 169, stored 169 -> meta equal True, X / Y / EL equal True
+[2] validation day 4 (cut at 2031-03-04T19:05:00Z, 1765s): X1 training windows of days < 4: cut copy 198, stored 198 -> meta equal True, X / Y / EL equal True
+[2] validation day 5 (cut at 2031-03-05T08:00:00Z, 1777s): X1 training windows of days < 5: cut copy 204, stored 204 -> meta equal True, X / Y / EL equal True
+[2] validation day 5 (cut at 2031-03-05T14:15:00Z, 1789s): X1 training windows of days < 5: cut copy 219, stored 219 -> meta equal True, X / Y / EL equal True
+[2] validation day 5 (cut at 2031-03-05T20:05:00Z, 1802s): X1 training windows of days < 5: cut copy 249, stored 249 -> meta equal True, X / Y / EL equal True
+[2] validation day 6 (cut at 2031-03-06T07:50:00Z, 1815s): X1 training windows of days < 6: cut copy 261, stored 261 -> meta equal True, X / Y / EL equal True
+[2] validation day 6 (cut at 2031-03-06T13:50:00Z, 1828s): X1 training windows of days < 6: cut copy 284, stored 284 -> meta equal True, X / Y / EL equal True
+[2] validation day 6 (cut at 2031-03-06T15:20:00Z, 1841s): X1 training windows of days < 6: cut copy 300, stored 300 -> meta equal True, X / Y / EL equal True
+[2] validation day 8 (cut at 2031-03-08T17:30:00Z, 1856s): X1 training windows of days < 8: cut copy 494, stored 494 -> meta equal True, X / Y / EL equal True
+[2] validation day 9 (cut at 2031-03-09T14:20:00Z, 1872s): X1 training windows of days < 9: cut copy 543, stored 543 -> meta equal True, X / Y / EL equal True
+[2] validation day 10 (cut at 2031-03-10T14:00:00Z, 1888s): X1 training windows of days < 10: cut copy 618, stored 618 -> meta equal True, X / Y / EL equal True
+[2] validation day 11 (cut at 2031-03-11T06:35:00Z, 1904s): X1 training windows of days < 11: cut copy 666, stored 666 -> meta equal True, X / Y / EL equal True
+[2] validation day 11 (cut at 2031-03-11T14:10:00Z, 1921s): X1 training windows of days < 11: cut copy 730, stored 730 -> meta equal True, X / Y / EL equal True
+[2] validation day 12 (cut at 2031-03-12T08:00:00Z, 1939s): X1 training windows of days < 12: cut copy 814, stored 814 -> meta equal True, X / Y / EL equal True
+[2] validation day 12 (cut at 2031-03-12T14:10:00Z, 1956s): X1 training windows of days < 12: cut copy 855, stored 855 -> meta equal True, X / Y / EL equal True
+[3] Q2_D7_I10_E_validation_005 (queue_onset, day 5, 1972s): features (+0 TTA) == stored True | recomputed == stored {} | networks cpu vs stored max |dp| 1.08e-02 | queue cells differing from queue_finA8.parquet: 0 of 876
+[3] Q2_D7_I10_W_private_004 (queue_onset, day 7, 1989s): features (+0 TTA) == stored True | recomputed == stored {'physon_a': True, 'physon': True} | networks cpu vs stored max |dp| 2.44e-03 | queue cells differing from queue_finA8.parquet: 0 of 642
+[3] Q2_D7_I210_E_validation_009 (queue_ongoing, day 4, 2005s): features (+0 TTA) == stored True | recomputed == stored {} | networks cpu vs stored max |dp| 7.20e-04 | queue cells differing from queue_finA8.parquet: 0 of 1782
+[3] Q2_D7_I210_W_private_010 (queue_ongoing, day 3, 2019s): features (+0 TTA) == stored True | recomputed == stored {'lgbnm': True} | networks cpu vs stored max |dp| 1.06e-03 | queue cells differing from queue_finA8.parquet: 0 of 486
+E6 physical truncation (A8): PASS 2019s

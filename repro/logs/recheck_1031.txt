@@ -1,0 +1,60 @@
+Sat Oct 31 05:18:38     2026
+python 3.14.4 win32 | numpy 2.5.2 | pandas 3.0.6 | lightgbm 4.7.0
+D7_I10_E validation T 8928 n 146 targets 337512 regimes [10  9 12]
+D7_I10_E private T 8640 n 146 targets 303294 regimes [10 12  8]
+D7_I10_W validation T 8928 n 107 targets 233060 regimes [11 11  9]
+D7_I10_W private T 8640 n 107 targets 203699 regimes [14 10  6]
+D7_I210_E validation T 8928 n 297 targets 625014 regimes [14  8  9]
+D7_I210_E private T 8640 n 297 targets 581196 regimes [12 12  6]
+D7_I210_W validation T 8928 n 81 targets 205973 regimes [ 6 10 15]
+D7_I210_W private T 8640 n 81 targets 158901 regimes [12 12  6]
+D7_I405_N validation T 8928 n 352 targets 673133 regimes [13 14  4]
+D7_I405_N private T 8640 n 352 targets 746097 regimes [10 11  9]
+D7_I405_S validation T 8928 n 109 targets 271939 regimes [ 6 11 14]
+D7_I405_S private T 8640 n 109 targets 243603 regimes [ 7 13 10]
+D12_I5_N validation T 8928 n 258 targets 588468 regimes [ 8 13 10]
+D12_I5_N private T 8640 n 258 targets 543092 regimes [ 9 13  8]
+D12_I5_S validation T 8928 n 100 targets 219222 regimes [14  6 11]
+D12_I5_S private T 8640 n 100 targets 204957 regimes [12 10  8]
+caches ready: C:\tfb_clone_venv\assets\work\cache
+C:/tfb_clone_venv/assets/nn/nn_test_afdem 160 windows -> lgbnm
+official onset windows 80 (saved models)
+validation events 289 new-site share (whole month, diagnostic) 0.30 | a over its onset windows: min 0.300 median 0.364 max 0.411
+private events 282 new-site share (whole month, diagnostic) 0.20 | a over its onset windows: min 0.250 median 0.286 max 0.312
+C:\tfb_clone_venv\assets\work\subs\repro_finA6_final.zip
+C:\tfb_clone_venv\assets\work\subs\repro_finB6_final.zip
+final A6: submission.csv identical to the submitted one (sha256 27bd4fafd262249b)
+final B6: submission.csv identical to the submitted one (sha256 4648e7a72f209aab)
+run_final: done (cache t2aux t2final verify)
+clone rebuild: 89 s
+WINDOWS exit 0 Sat Oct 31 05:20:14     2026
+python 3.12.3 linux | numpy 2.5.3 | pandas 3.0.6 | lightgbm 4.7.0
+D7_I10_E validation T 8928 n 146 targets 337512 regimes [10  9 12]
+D7_I10_E private T 8640 n 146 targets 303294 regimes [10 12  8]
+D7_I10_W validation T 8928 n 107 targets 233060 regimes [11 11  9]
+D7_I10_W private T 8640 n 107 targets 203699 regimes [14 10  6]
+D7_I210_E validation T 8928 n 297 targets 625014 regimes [14  8  9]
+D7_I210_E private T 8640 n 297 targets 581196 regimes [12 12  6]
+D7_I210_W validation T 8928 n 81 targets 205973 regimes [ 6 10 15]
+D7_I210_W private T 8640 n 81 targets 158901 regimes [12 12  6]
+D7_I405_N validation T 8928 n 352 targets 673133 regimes [13 14  4]
+D7_I405_N private T 8640 n 352 targets 746097 regimes [10 11  9]
+D7_I405_S validation T 8928 n 109 targets 271939 regimes [ 6 11 14]
+D7_I405_S private T 8640 n 109 targets 243603 regimes [ 7 13 10]
+D12_I5_N validation T 8928 n 258 targets 588468 regimes [ 8 13 10]
+D12_I5_N private T 8640 n 258 targets 543092 regimes [ 9 13  8]
+D12_I5_S validation T 8928 n 100 targets 219222 regimes [14  6 11]
+D12_I5_S private T 8640 n 100 targets 204957 regimes [12 10  8]
+caches ready: /home/user/tfb_clone/assets/work/cache
+/home/user/tfb_clone/assets/nn/nn_test_afdem 160 windows -> lgbnm
+official onset windows 80 (saved models)
+validation events 289 new-site share (whole month, diagnostic) 0.30 | a over its onset windows: min 0.300 median 0.364 max 0.411
+private events 282 new-site share (whole month, diagnostic) 0.20 | a over its onset windows: min 0.250 median 0.286 max 0.312
+/home/user/tfb_clone/assets/work/subs/repro_finA6_final.zip
+/home/user/tfb_clone/assets/work/subs/repro_finB6_final.zip
+final A6: submission.csv identical to the submitted one (sha256 27bd4fafd262249b)
+final B6: submission.csv identical to the submitted one (sha256 4648e7a72f209aab)
+run_final: done (cache t2aux t2final verify)
+clone rebuild: 166 s
+LINUX exit 0 Sat Oct 31 05:23:26     2026
+ALLDONE

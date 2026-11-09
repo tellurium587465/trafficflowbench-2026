@@ -1,0 +1,58 @@
+python 3.12.3 linux | numpy 2.5.3 | pandas 3.0.6 | lightgbm 4.7.0
+D7_I10_E validation T 8928 n 146 targets 337512 regimes [10  9 12]
+D7_I10_E private T 8640 n 146 targets 303294 regimes [10 12  8]
+D7_I10_W validation T 8928 n 107 targets 233060 regimes [11 11  9]
+D7_I10_W private T 8640 n 107 targets 203699 regimes [14 10  6]
+D7_I210_E validation T 8928 n 297 targets 625014 regimes [14  8  9]
+D7_I210_E private T 8640 n 297 targets 581196 regimes [12 12  6]
+D7_I210_W validation T 8928 n 81 targets 205973 regimes [ 6 10 15]
+D7_I210_W private T 8640 n 81 targets 158901 regimes [12 12  6]
+D7_I405_N validation T 8928 n 352 targets 673133 regimes [13 14  4]
+D7_I405_N private T 8640 n 352 targets 746097 regimes [10 11  9]
+D7_I405_S validation T 8928 n 109 targets 271939 regimes [ 6 11 14]
+D7_I405_S private T 8640 n 109 targets 243603 regimes [ 7 13 10]
+D12_I5_N validation T 8928 n 258 targets 588468 regimes [ 8 13 10]
+D12_I5_N private T 8640 n 258 targets 543092 regimes [ 9 13  8]
+D12_I5_S validation T 8928 n 100 targets 219222 regimes [14  6 11]
+D12_I5_S private T 8640 n 100 targets 204957 regimes [12 10  8]
+caches ready: /home/user/tfb_clone_a16/assets/work/cache
+/home/user/tfb_clone_a16/assets/nn/nn_test_afdem 160 windows -> lgbnm
+official onset windows 80 (saved models)
+validation events 289 new-site share (whole month, diagnostic) 0.30 | a over its onset windows: min 0.300 median 0.364 max 0.411
+private events 282 new-site share (whole month, diagnostic) 0.20 | a over its onset windows: min 0.250 median 0.286 max 0.312
+/home/user/tfb_clone_a16/assets/work/subs/repro_finA16t_final.zip
+/home/user/tfb_clone_a16/assets/work/subs/repro_finA15t_final.zip
+/home/user/tfb_clone_a16/assets/work/subs/repro_finA13t_final.zip
+/home/user/tfb_clone_a16/assets/work/subs/repro_finB7t_final.zip
+/home/user/tfb_clone_a16/assets/work/subs/repro_finB11t_final.zip
+final A16t: submission.csv identical to the submitted one (sha256 7bac846217800fa7)
+final A15t: submission.csv identical to the submitted one (sha256 69c19f33b43d2bfd)
+final A13t: submission.csv identical to the submitted one (sha256 16bcab21c2fa9ae9)
+final B7t: submission.csv identical to the submitted one (sha256 fc7f8547c3c99d24)
+final B11t: submission.csv identical to the submitted one (sha256 9259eae7e78696f8)
+run_final: done (cache t2aux t2final verify)
+clone rebuild: 171 s
+	Command being timed: "bash /mnt/c/Users/user/tfb_a8/repro/clone_check.sh"
+	User time (seconds): 208.79
+	System time (seconds): 41.61
+	Percent of CPU this job got: 124%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:21.66
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5154188
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 224
+	Minor (reclaiming a frame) page faults: 6327493
+	Voluntary context switches: 274332
+	Involuntary context switches: 2037
+	Swaps: 0
+	File system inputs: 8215105
+	File system outputs: 10240568
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+EXIT 0 Thu Nov  5 06:37:20 JST 2026

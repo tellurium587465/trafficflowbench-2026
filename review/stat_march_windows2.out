@@ -1,0 +1,9 @@
+﻿D7_I10_E   onset-like windows (cov>=0.4)  16, day>=10  13, observed share of label row 0.58
+D7_I10_W   onset-like windows (cov>=0.4)  18, day>=10  15, observed share of label row 0.63
+D7_I210_E  onset-like windows (cov>=0.4)  20, day>=10  15, observed share of label row 0.60
+D7_I210_W  onset-like windows (cov>=0.4)  18, day>=10  14, observed share of label row 0.52
+D7_I405_N  onset-like windows (cov>=0.4)  29, day>=10  24, observed share of label row 0.57
+D7_I405_S  onset-like windows (cov>=0.4)  16, day>=10  13, observed share of label row 0.54
+D12_I5_N   onset-like windows (cov>=0.4)  15, day>=10  14, observed share of label row 0.61
+D12_I5_S   onset-like windows (cov>=0.4)  18, day>=10  15, observed share of label row 0.57
+total [150, 123]

@@ -1,0 +1,17 @@
+D7_I10_E windows 828 3s rows tr 284432
+D7_I10_W windows 383 4s rows tr 348379
+D7_I210_E windows 1012 9s rows tr 669921
+D7_I210_W windows 1044 12s rows tr 886103
+D7_I405_N windows 1121 19s rows tr 1629582
+D7_I405_S windows 848 23s rows tr 1886915
+D12_I5_N windows 792 28s rows tr 2383144
+D12_I5_S windows 822 31s rows tr 2634387
+speed best_iter 2999 190s
+flow best_iter 2999 377s
+Feb all eligible gap cells   n= 1800921  RMSE v  linear   8.81  gapml   5.38 | q/lane linear  100.3  gapml   59.6
+Feb template targets         n=  632051  RMSE v  linear   8.87  gapml   5.53 | q/lane linear  101.7  gapml   62.6
+Feb onset windows            n=  200170  RMSE v  linear   7.87  gapml   4.65 | q/lane linear  118.0  gapml   54.3
+Feb ongoing windows          n=  431881  RMSE v  linear   9.30  gapml   5.90 | q/lane linear   93.1  gapml   66.1
+Feb rows T+5..T+30           n=  210479  RMSE v  linear   7.62  gapml   4.90 | q/lane linear   98.3  gapml   58.4
+Feb rows T+35..T+90          n=  421572  RMSE v  linear   9.44  gapml   5.82 | q/lane linear  103.3  gapml   64.6
+top speed features: [('v_lin', 0.107), ('tod', 0.055), ('tail_int', 0.047), ('tail_post', 0.043), ('tail_pre', 0.042), ('k', 0.037), ('head_post', 0.034), ('post_v', 0.033), ('nb5_vlin', 0.028), ('head_pre', 0.027), ('nq_pre', 0.027), ('pre_v', 0.026)]

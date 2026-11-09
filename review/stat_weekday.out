@@ -1,0 +1,39 @@
+﻿share weekend among selector-like windows: {'ongoing': 0.383, 'onset': 0.384}  | inside vLBs: {'ongoing': 0.383, 'onset': 0.384}
+                  LGB   BLEND      NN   NNq10  NNq10np  LGBfast
+cond    wkend                                                  
+ongoing False  0.9148  0.9369  0.9326  0.9371   0.9393   0.9001
+        True   0.9411  0.9538  0.9536  0.9568   0.9544   0.9308
+onset   False  0.8838  0.9014  0.8994  0.8897   0.8940   0.8574
+        True   0.9255  0.9426  0.9356  0.9289   0.9237   0.8998
+
+LGB->BLEND paired difference by weekend
+                 mean     sem  size
+cond    wkend                      
+ongoing False  0.0221  0.0028   918
+        True   0.0126  0.0022   570
+onset   False  0.0176  0.0034   921
+        True   0.0170  0.0046   573
+
+NN->BLEND paired difference by weekend
+                 mean     sem  size
+cond    wkend                      
+ongoing False  0.0043  0.0015   918
+        True   0.0001  0.0017   570
+onset   False  0.0020  0.0031   921
+        True   0.0070  0.0049   573
+
+NNq10->NNq10np paired difference by weekend
+                 mean     sem  size
+cond    wkend                      
+ongoing False  0.0023  0.0017   918
+        True  -0.0023  0.0019   570
+onset   False  0.0043  0.0037   921
+        True  -0.0052  0.0041   573
+
+LGB->LGBfast paired difference by weekend
+                 mean     sem  size
+cond    wkend                      
+ongoing False -0.0147  0.0022   918
+        True  -0.0104  0.0018   570
+onset   False -0.0264  0.0044   921
+        True  -0.0257  0.0060   573

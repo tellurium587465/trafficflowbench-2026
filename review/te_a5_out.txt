@@ -1,0 +1,21 @@
+﻿
+=== D7_I10_W: isolated births 89; 30 min later, extension toward LOWER index: mean 0.49 km (>0.5km on 0.71); toward HIGHER index: mean 0.71 km (>0.5km on 0.83)
+ segment max-index top3 share 0.72, min-index top3 share 0.75; distinct max 55, distinct min 55
+ tail kinematics: n=1538 (gone in 30 min: 0.28); actual tail shift km: mean +0.06, |.| 0.81
+   MAE persistence 0.81 | RH 3.08 | RH x0.5 1.77 | linear(last 30) 1.27 vs persistence on same 0.80 | corr(RH, act) 0.02
+   RH speed s km/h: p10/50/90 [-1.4  2.8 16. ] ; w median 25.0 km/h
+   head shift (km) over 30 min: |.|<0.3 km on 0.66, mean +0.30
+
+=== D12_I5_S: isolated births 290; 30 min later, extension toward LOWER index: mean 0.50 km (>0.5km on 0.76); toward HIGHER index: mean 0.75 km (>0.5km on 0.72)
+ segment max-index top3 share 0.56, min-index top3 share 0.24; distinct max 81, distinct min 79
+ tail kinematics: n=23741 (gone in 30 min: 0.16); actual tail shift km: mean +0.09, |.| 1.75
+   MAE persistence 1.75 | RH 4.86 | RH x0.5 2.95 | linear(last 30) 3.13 vs persistence on same 1.91 | corr(RH, act) 0.09
+   RH speed s km/h: p10/50/90 [-15.7   1.7  18.2] ; w median 25.4 km/h
+   head shift (km) over 30 min: |.|<0.3 km on 0.72, mean +0.62
+
+=== D7_I405_N: isolated births 893; 30 min later, extension toward LOWER index: mean 1.64 km (>0.5km on 0.57); toward HIGHER index: mean 4.17 km (>0.5km on 0.55)
+ segment max-index top3 share 0.32, min-index top3 share 0.08; distinct max 330, distinct min 333
+ tail kinematics: n=39485 (gone in 30 min: 0.16); actual tail shift km: mean +0.44, |.| 4.61
+   MAE persistence 4.61 | RH 7.20 | RH x0.5 5.43 | linear(last 30) 8.43 vs persistence on same 4.99 | corr(RH, act) 0.02
+   RH speed s km/h: p10/50/90 [-18.6   0.8  24. ] ; w median 23.1 km/h
+   head shift (km) over 30 min: |.|<0.3 km on 0.38, mean +4.11

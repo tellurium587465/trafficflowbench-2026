@@ -1,0 +1,20 @@
+speed trained (3323268, 60) 475s
+flow trained (3323268, 60) 882s
+validation D7_I10_E blank targets filled 8349
+validation D7_I10_W blank targets filled 3966
+validation D7_I210_E blank targets filled 14727
+validation D7_I210_W blank targets filled 4197
+validation D7_I405_N blank targets filled 14082
+validation D7_I405_S blank targets filled 5071
+validation D12_I5_N blank targets filled 10316
+validation D12_I5_S blank targets filled 4012
+private D7_I10_E blank targets filled 7501
+private D7_I10_W blank targets filled 4202
+private D7_I210_E blank targets filled 10637
+private D7_I210_W blank targets filled 2564
+private D7_I405_N blank targets filled 20215
+private D7_I405_S blank targets filled 5624
+private D12_I5_N blank targets filled 9971
+private D12_I5_S blank targets filled 3031
+C:/Users/user/tfb/work/t1/state_f3ens3c.parquet -> C:/Users/user/tfb/work/t1/state_f3ens3c_gapml.parquet replaced 128465 of 128465 fill rows; 6735795 rows 946s
+C:/Users/user/tfb/work/t1/state_f3ens3c_ad.parquet -> C:/Users/user/tfb/work/t1/state_f3ens3c_ad_gapml.parquet replaced 128465 of 128465 fill rows; 6735795 rows 966s

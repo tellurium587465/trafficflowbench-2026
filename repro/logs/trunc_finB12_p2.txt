@@ -1,0 +1,24 @@
+candidate B12 ({'TFB_T2_ONSET_SEEDS': '8', 'TFB_T2_OG_FAMILY': 'q24f', 'TFB_T2_OG_SEEDS_PRIV': '16', 'TFB_T2_MIX_SPLITS': 'none', 'TFB_T2_CONE_SPLITS': 'validation', 'TFB_T2_TFM': 'validation:tfm4_s0+tfm4_s1+tfm4_s2+tfm4_s3+tfm4_s4', 'TFB_T2_TFM_CONDS': 'queue_ongoing', 'TFB_T2_OGRAW_SPLITS': 'private', 'TFB_T2_OGBASE_SPLITS': 'private', 'TFB_T2_OGX3': 'x3af_s0+x3af_s1', 'TFB_T2_OGTE': '1.2', 'TFB_T2_GATE2': '1', 'TFB_T2_LQT': '1', 'TFB_T2_OGU2D': 'u2d_s0+u2d_s1', 'TFB_T2_OGDEX': '1'}, choice base,0,x1,0,1), reference C:/Users/user/tfb/work/t2/queue_repro_finB12t.parquet, windows 160
+[2] private day 2 (cut at 2031-04-02T11:10:00Z, 9s): X1 training windows of days < 2: cut copy 46, stored 46 -> meta equal True, X / Y / EL equal True
+[2] private day 3 (cut at 2031-04-03T11:35:00Z, 20s): X1 training windows of days < 3: cut copy 93, stored 93 -> meta equal True, X / Y / EL equal True
+[2] private day 4 (cut at 2031-04-04T06:20:00Z, 31s): X1 training windows of days < 4: cut copy 180, stored 180 -> meta equal True, X / Y / EL equal True
+[2] private day 5 (cut at 2031-04-05T16:05:00Z, 43s): X1 training windows of days < 5: cut copy 268, stored 268 -> meta equal True, X / Y / EL equal True
+[2] private day 6 (cut at 2031-04-06T14:35:00Z, 57s): X1 training windows of days < 6: cut copy 347, stored 347 -> meta equal True, X / Y / EL equal True
+[2] private day 7 (cut at 2031-04-07T13:25:00Z, 71s): X1 training windows of days < 7: cut copy 378, stored 378 -> meta equal True, X / Y / EL equal True
+[2] private day 8 (cut at 2031-04-08T07:50:00Z, 85s): X1 training windows of days < 8: cut copy 458, stored 458 -> meta equal True, X / Y / EL equal True
+[2] private day 10 (cut at 2031-04-10T14:45:00Z, 101s): X1 training windows of days < 10: cut copy 675, stored 675 -> meta equal True, X / Y / EL equal True
+[2] private day 12 (cut at 2031-04-12T14:45:00Z, 118s): X1 training windows of days < 12: cut copy 905, stored 905 -> meta equal True, X / Y / EL equal True
+[2] private day 13 (cut at 2031-04-13T14:40:00Z, 137s): X1 training windows of days < 13: cut copy 1014, stored 1014 -> meta equal True, X / Y / EL equal True
+[2] private day 15 (cut at 2031-04-15T14:45:00Z, 157s): X1 training windows of days < 15: cut copy 1143, stored 1143 -> meta equal True, X / Y / EL equal True
+[2] private day 17 (cut at 2031-04-17T15:15:00Z, 179s): X1 training windows of days < 17: cut copy 1302, stored 1302 -> meta equal True, X / Y / EL equal True
+[2] validation day 2 (cut at 2031-03-02T16:10:00Z, 190s): X1 training windows of days < 2: cut copy 48, stored 48 -> meta equal True, X / Y / EL equal True
+[2] validation day 3 (cut at 2031-03-03T12:00:00Z, 201s): X1 training windows of days < 3: cut copy 82, stored 82 -> meta equal True, X / Y / EL equal True
+[2] validation day 4 (cut at 2031-03-04T11:20:00Z, 213s): X1 training windows of days < 4: cut copy 136, stored 136 -> meta equal True, X / Y / EL equal True
+[2] validation day 5 (cut at 2031-03-05T08:00:00Z, 225s): X1 training windows of days < 5: cut copy 204, stored 204 -> meta equal True, X / Y / EL equal True
+[2] validation day 6 (cut at 2031-03-06T07:50:00Z, 237s): X1 training windows of days < 6: cut copy 255, stored 255 -> meta equal True, X / Y / EL equal True
+[2] validation day 8 (cut at 2031-03-08T17:30:00Z, 252s): X1 training windows of days < 8: cut copy 451, stored 451 -> meta equal True, X / Y / EL equal True
+[2] validation day 9 (cut at 2031-03-09T14:20:00Z, 268s): X1 training windows of days < 9: cut copy 514, stored 514 -> meta equal True, X / Y / EL equal True
+[2] validation day 10 (cut at 2031-03-10T14:00:00Z, 284s): X1 training windows of days < 10: cut copy 594, stored 594 -> meta equal True, X / Y / EL equal True
+[2] validation day 11 (cut at 2031-03-11T06:35:00Z, 301s): X1 training windows of days < 11: cut copy 665, stored 665 -> meta equal True, X / Y / EL equal True
+[2] validation day 12 (cut at 2031-03-12T08:00:00Z, 318s): X1 training windows of days < 12: cut copy 805, stored 805 -> meta equal True, X / Y / EL equal True
+E6 physical truncation (B12): PASS 319s

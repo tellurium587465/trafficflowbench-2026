@@ -1,0 +1,10 @@
+#!/bin/bash
+# 11/05 ledger #246: the Linux (WSL) clone pass after the new-month stage and the TFB_SPLIT_DATES override (README's distribution: git clone of
+# the branch + the release assets tfb_final_assets_a16.zip + the public release, then run_final.sh: caches -> t2aux -> t2final -> verify).
+# The worktree's .git points at a Windows path, so the repository comes from the branch bundle of the 11/05 backup (as recheck_a10_wsl.sh).
+export PY=$HOME/arc2venv/bin/python REPO=$HOME/tfb_repo_n46 ASSETS=/mnt/c/tfb_release/tfb_final_assets_a16.zip D=$HOME/tfb_clone_n46 \
+       TFB_REL=/mnt/c/Users/user/tfb/data/kaggle_public FINAL="A21t A17t A16t A15t A13t B7t B11t"
+L=/mnt/c/Users/user/tfb_a8/repro/logs/clone_linux_n46.txt
+rm -rf $REPO; git clone -q -b a8b9 /mnt/c/tfb_final_backup_1105/tfb_a8b9.bundle $REPO > $L 2>&1
+/usr/bin/time -v bash /mnt/c/Users/user/tfb_a8/repro/clone_check.sh >> $L 2>&1
+echo "EXIT $? $(date)" >> $L; rm -rf $HOME/tfb_clone_n46 $HOME/tfb_repo_n46

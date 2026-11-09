@@ -1,0 +1,26 @@
+# 11/06 ledger #283 / REVIEW P0: dry run of repro/run_new_month.sh (FINAL="A25t B7ct", STAGES=build) on the #246 dry folder
+# (April as the new month, one panel D7_I10_E; inputs, base networks and X1 computed from the public data alone on 11/05)
+## build log (warnings removed)
+  File "C:\Users\user\tfb_a8\src\t2_build_final.py", line 13, in <module>
+    subprocess.run([sys.executable, "t2_build_variant.py", name, c[0], c[1], c[2], c[3], c[4], state, odme], cwd=os.path.dirname(os.path.abspath(__file__)),
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                   check=True, env=dict({k: v for k, v in os.environ.items() if not k.startswith("TFB_T2_")}, **env))   # only the candidate's options
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Python\pythoncore-3.14-64\Lib\subprocess.py", line 578, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['C:\\Users\\user\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe', 't2_build_variant.py', 'newmonth_finB7c', 'base', '0', 'x1', '0', '1', 'C:/tfb_newmonth_dry/work/t1/state_t1final.parquet', 'C:/tfb_newmonth_dry/work/t4/odme_l2.parquet']' returned non-zero exit status 1.
+D=3 CONTIG=1: far ongoing positives 23, kept by same-month evidence 18, kept as contiguous growth 0, removed 5 -> C:/tfb_newmonth_dry/work/t2/queue_newmonth_finB7c.parquet
+raw ongoing on ['private']: windows changed 0
+(B7c: the Task 2 queue is in C:/tfb_newmonth_dry/work/t2/queue_newmonth_finB7c.parquet; the zip step needs the new month's submission key)
+## comparison with the submitted predictions (D7_I10_E windows)
+queue_newmonth_finA25.parquet total cells differing 15 / 17520
+   private    queue_ongoing cells   6 / 4380  windows 3 / 5
+   private    queue_onset   cells   0 / 4380  windows 0 / 5
+   validation queue_ongoing cells   9 / 4380  windows 2 / 5
+   validation queue_onset   cells   0 / 4380  windows 0 / 5
+queue_newmonth_finB7c.parquet total cells differing 12 / 17520
+   private    queue_ongoing cells   0 / 4380  windows 0 / 5
+   private    queue_onset   cells   0 / 4380  windows 0 / 5
+   validation queue_ongoing cells  12 / 4380  windows 3 / 5
+   validation queue_onset   cells   0 / 4380  windows 0 / 5

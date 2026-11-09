@@ -1,0 +1,17 @@
+Sat Oct 31 23:49:22     2026
+python 3.14.4 win32 | numpy 2.5.2 | pandas 3.0.6 | lightgbm 4.7.0
+final A6: submission.csv identical to the submitted one (sha256 27bd4fafd262249b)
+final A7: submission.csv identical to the submitted one (sha256 2022885978b48f15)
+final B7: submission.csv identical to the submitted one (sha256 d0673807782917ad)
+final B8: submission.csv identical to the submitted one (sha256 98b943ada7e459da)
+run_final: done (cache t2aux t2final verify)
+clone rebuild: 149 s
+WINDOWS exit 0 157 s
+python 3.12.3 linux | numpy 2.5.3 | pandas 3.0.6 | lightgbm 4.7.0
+final A6: submission.csv identical to the submitted one (sha256 27bd4fafd262249b)
+final A7: submission.csv identical to the submitted one (sha256 2022885978b48f15)
+final B7: submission.csv identical to the submitted one (sha256 d0673807782917ad)
+final B8: submission.csv identical to the submitted one (sha256 98b943ada7e459da)
+run_final: done (cache t2aux t2final verify)
+clone rebuild: 160 s
+LINUX exit 0 187 s Sat Oct 31 23:55:06     2026

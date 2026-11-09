@@ -1,0 +1,9 @@
+D7_I405_N f3big as is      blank-target RMSE v  11.99 q/lane  161.5 | S_state 0.9167  S_LWR_proxy 0.6112  S_phys_proxy 0.7349
+D7_I405_N linear in blank  blank-target RMSE v   7.24 q/lane  112.6 | S_state 0.9297  S_LWR_proxy 0.6378  S_phys_proxy 0.7528
+D7_I405_N gapml in blank   blank-target RMSE v   3.92 q/lane   55.8 | S_state 0.9362  S_LWR_proxy 0.6490  S_phys_proxy 0.7603
+D7_I210_E f3big as is      blank-target RMSE v  11.08 q/lane  114.7 | S_state 0.9190  S_LWR_proxy 0.5825  S_phys_proxy 0.7169
+D7_I210_E linear in blank  blank-target RMSE v   3.62 q/lane   78.5 | S_state 0.9410  S_LWR_proxy 0.6049  S_phys_proxy 0.7321
+D7_I210_E gapml in blank   blank-target RMSE v   1.77 q/lane   39.1 | S_state 0.9464  S_LWR_proxy 0.6246  S_phys_proxy 0.7453
+D12_I5_S f3big as is      blank-target RMSE v  14.93 q/lane  153.8 | S_state 0.9220  S_LWR_proxy 0.5870  S_phys_proxy 0.7211
+D12_I5_S linear in blank  blank-target RMSE v  11.54 q/lane   99.8 | S_state 0.9340  S_LWR_proxy 0.6236  S_phys_proxy 0.7457
+D12_I5_S gapml in blank   blank-target RMSE v   6.38 q/lane   65.5 | S_state 0.9476  S_LWR_proxy 0.6419  S_phys_proxy 0.7580

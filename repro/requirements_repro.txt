@@ -1,0 +1,11 @@
+# Minimal set for the reproduction path (10/24), pinned to the versions the finals were built with (Windows, Python 3.14.4).
+# Default path (`bash repro/run_final.sh`): these six. Optional X1 stage / causality-check phases 3-4 also need PyTorch CPU:
+#   pip install torch==2.14.1 --index-url https://download.pytorch.org/whl/cpu
+# Checked 10/24 by tracing the imports of the default path (PYTHONPROFILEIMPORTTIME): the third-party modules loaded are
+# these six and their own dependencies (python-dateutil, joblib, threadpoolctl, ...), which pip installs with them.
+numpy==2.5.2
+pandas==3.0.6
+pyarrow==25.0.1
+lightgbm==4.7.0
+scipy==1.18.1
+scikit-learn==1.9.1

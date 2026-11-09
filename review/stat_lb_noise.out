@@ -1,0 +1,58 @@
+﻿LGB_v10(prior)   n=2982 mean IoU 0.9123
+LGB_v10dem       n=2982 mean IoU 0.9142
+LGBfast_npp      n=2982 mean IoU 0.8927
+LGBfast_af       n=2982 mean IoU 0.8951
+NN_q10           n=2982 mean IoU 0.9246
+NN_q10_nopos     n=2982 mean IoU 0.9252
+NN_af            n=2982 mean IoU 0.9269
+BLEND_af         n=2982 mean IoU 0.9302
+
+# virtual LBs used: 39  windows/vLB: 79.71794871794872
+window IoU sd inside a vLB (BLEND_af): 0.196 -> SE of an 80-window mean 0.0219 (x0.30 = 0.0066 total)
+  queue_onset: mean 0.917 sd 0.241 share IoU<0.5 0.074
+  queue_ongoing: mean 0.943 sd 0.114 share IoU<0.5 0.014
+
+# pair: mean d over vLBs | sd(d) across vLBs | mean paired SE inside a vLB | P(sign agrees with mean) | corr(onset d, next vLB)
+LGB_v10(prior) ->BLEND_af        +0.0182 | 0.0093 | 0.0100 | 1.00 | lag1 r=-0.03
+NN_af          ->BLEND_af        +0.0032 | 0.0099 | 0.0089 | 0.62 | lag1 r=+0.22
+LGB_v10(prior) ->LGB_v10dem      +0.0014 | 0.0075 | 0.0072 | 0.56 | lag1 r=+0.04
+NN_q10         ->NN_q10_nopos    +0.0001 | 0.0076 | 0.0093 | 0.46 | lag1 r=-0.12
+LGBfast_npp    ->LGBfast_af      +0.0029 | 0.0099 | 0.0090 | 0.69 | lag1 r=+0.30
+LGB_v10(prior) ->LGBfast_npp     -0.0189 | 0.0106 | 0.0118 | 1.00 | lag1 r=-0.21
+ICC of window IoU by panel         : 0.045 (mean cluster size 372.8)
+ICC of window IoU by panel x cond  : 0.058 (mean cluster size 186.4)
+ICC of window IoU by panel x month : 0.054 (mean cluster size 41.4)
+ICC of window IoU by panel x day   : 0.127 (mean cluster size 2.4)
+ICC of paired difference LGB_v10(prior)->BLEND_af by panel: 0.010;  per-panel mean d: +0.015 +0.027 +0.002 +0.009 +0.013 +0.028 +0.024 +0.029
+ICC of paired difference NN_af->BLEND_af by panel: 0.002;  per-panel mean d: +0.008 +0.006 +0.003 +0.012 -0.001 -0.003 +0.004 -0.003
+
+# calibration of best_set's own expected IoU (selector-like windows)
+BLEND_af        queue_onset   E[IoU] 0.925 realized 0.917  by quartile [0.72->0.72] [0.98->0.98] [1.00->0.99] [1.00->0.98]
+BLEND_af        queue_ongoing E[IoU] 0.926 realized 0.943  by quartile [0.81->0.84] [0.93->0.96] [0.97->0.98] [0.99->1.00]
+LGB_v10(prior)  queue_onset   E[IoU] 0.938 realized 0.900  by quartile [0.76->0.69] [0.99->0.94] [1.00->0.99] [1.00->0.98]
+LGB_v10(prior)  queue_ongoing E[IoU] 0.917 realized 0.925  by quartile [0.79->0.79] [0.92->0.94] [0.96->0.98] [0.99->1.00]
+NN_af           queue_onset   E[IoU] 0.948 realized 0.913  by quartile [0.80->0.71] [0.99->0.98] [1.00->0.98] [1.00->0.99]
+NN_af           queue_ongoing E[IoU] 0.956 realized 0.941  by quartile [0.88->0.83] [0.96->0.95] [0.98->0.98] [1.00->1.00]
+
+# onset strata (selector-like windows): {'site1': 1102, 'other': 77, 'site2-3': 310, 'none': 5}
+model               site1   site2-3     other   equal-weight  train-mix
+LGB_v10(prior)      0.942     0.910     0.309   0.7204       0.8998
+LGB_v10dem          0.946     0.910     0.311   0.7222       0.9023
+LGBfast_npp         0.928     0.853     0.242   0.6742       0.8737
+LGBfast_af          0.930     0.856     0.232   0.6728       0.8757
+NN_q10              0.941     0.920     0.385   0.7485       0.9047
+NN_q10_nopos        0.942     0.915     0.398   0.7519       0.9054
+NN_af               0.944     0.947     0.391   0.7609       0.9133
+BLEND_af            0.954     0.940     0.362   0.7519       0.9172
+
+# BLEND_af: score under logit scaling a*logit(p)+b before best_set (onset | ongoing)
+a=0.50  b-1: 0.9115|0.9203   b+0: 0.9109|0.9358   b+1: 0.8757|0.8853
+a=0.75  b-1: 0.9108|0.9259   b+0: 0.9163|0.9418   b+1: 0.9018|0.9172
+a=1.00  b-1: 0.9097|0.9308   b+0: 0.9172|0.9433   b+1: 0.9081|0.9278
+a=1.50  b-1: 0.9118|0.9366   b+0: 0.9165|0.9433   b+1: 0.9117|0.9365
+a=2.00  b-1: 0.9127|0.9391   b+0: 0.9164|0.9436   b+1: 0.9141|0.9395
+
+onset single-segment rule: best_set 0.9172 -> segment 0.7766; windows with >1 segment 0.403; on those: 0.879 -> 0.530
+   site1   : multi-seg share 0.377, best_set 0.954, segment 0.812
+   site2-3 : multi-seg share 0.461, best_set 0.940, segment 0.770
+   other   : multi-seg share 0.532, best_set 0.362, segment 0.350

@@ -1,0 +1,26 @@
+candidate B11 ({'TFB_T2_ONSET_SEEDS': '8', 'TFB_T2_OG_FAMILY': 'q24f', 'TFB_T2_OG_SEEDS_PRIV': '16', 'TFB_T2_MIX_SPLITS': 'none', 'TFB_T2_CONE_SPLITS': 'validation', 'TFB_T2_TFM': 'validation:tfm4_s0+tfm4_s1+tfm4_s2+tfm4_s3+tfm4_s4', 'TFB_T2_TFM_CONDS': 'queue_ongoing', 'TFB_T2_OGRAW_SPLITS': 'private', 'TFB_T2_OGBASE_SPLITS': 'private', 'TFB_T2_OGX3': 'x3af_s0+x3af_s1', 'TFB_T2_OGTE': '1.2', 'TFB_T2_GATE2': '1', 'TFB_T2_LQT': '1', 'TFB_T2_OGU2D': 'u2d_s0+u2d_s1'}, choice base,0,x1,0,1), reference C:/Users/user/tfb/work/t2/queue_repro_finB11t.parquet, windows 160
+[1] Q2_D7_I10_E_validation_001 (queue_onset, day 1, 10s): rows deleted 2307172 of 2339136 | a features (+0 TTA draws) == stored: True | b queue == queue_repro_finB11t.parquet: True (0 cells differ)
+[1] Q2_D7_I10_E_validation_002 (queue_onset, day 2, 19s): rows deleted 2224380 of 2339136 | a features (+0 TTA draws) == stored: True | b queue == queue_repro_finB11t.parquet: True (0 cells differ)
+[1] Q2_D7_I10_E_validation_003 (queue_onset, day 3, 28s): rows deleted 2164382 of 2339136 | a features (+0 TTA draws) == stored: True | b queue == queue_repro_finB11t.parquet: True (0 cells differ)
+[1] Q2_D7_I10_E_validation_004 (queue_onset, day 4, 37s): rows deleted 2072944 of 2339136 | a features (+0 TTA draws) == stored: True | b queue == queue_repro_finB11t.parquet: True (0 cells differ)
+[1] Q2_D7_I10_E_validation_005 (queue_onset, day 5, 47s): rows deleted 1994868 of 2339136 | a features (+0 TTA draws) == stored: True | b queue == queue_repro_finB11t.parquet: True (0 cells differ)
+Traceback (most recent call last):
+  File "C:\Users\user\tfb_a8\src\t2_trunc_physical.py", line 101, in <module>
+    q = entry(r.window_id, "trunc" + TAG_, f"{base}/rel", f"{base}/cache", "saved")
+  File "C:\Users\user\tfb_a8\src\t2_trunc_physical.py", line 71, in entry
+    assert p.returncode == 0, p.stderr[-3000:]
+           ^^^^^^^^^^^^^^^^^
+AssertionError: Traceback (most recent call last):
+  File "C:\Users\user\tfb_a8\src\t2_onset_evidence.py", line 67, in <module>
+    pb = FS.temper(pb, OGTE); PBS[r.window_id] = pb
+                  ^^^^^
+NameError: name 'OGDEX' is not defined. Did you mean: 'OGTE'?
+Traceback (most recent call last):
+  File "C:\Users\user\tfb_a8\src\t2_window_entry.py", line 191, in <module>
+    subprocess.run([sys.executable, "t2_onset_evidence.py", src, f"entry_{out}on", "0.25", "0.85"], cwd=SRC, check=True, env=env)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Python\pythoncore-3.14-64\Lib\subprocess.py", line 578, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['C:\\Users\\user\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe', 't2_onset_evidence.py', 'entry_truncB11cone', 'entry_truncB11on', '0.25', '0.85']' returned non-zero exit status 1.
+

@@ -1,0 +1,18 @@
+# data, caches, models and outputs stay out of git (large / reproducible from code)
+data/
+work/
+repo/
+meta/
+public_nb/
+lb/
+package/
+*.npz
+*.npy
+*.pkl
+*.parquet
+*.zip
+*.pt
+*.log
+*.err
+*.csv
+__pycache__/

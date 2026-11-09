@@ -1,0 +1,34 @@
+{
+ "_doc": "T2 blend recipes behind the submissions (M5 audit M3). spec = t2_blend_submit.py syntax over probs_<tag>.pkl; post = post-process applied to the blended queue parquet; T1 = state parquet, T4 = odme_l2.",
+ "s31": {
+  "spec": "v14af:8+q15f_attnglob_s0:2+q15f_attnwp05_s0:2+q15f_attn1_s0:2+q15f_attnglob_s1:2+q15f_attnwp05_s1:2+q15f_attn1_s1:2+q15f_attnglob_s2:2+q15f_attnwp05_s2:2+q15f_attn1_s2:2+q15f_attnglob_s3:2+q15f_attnwp05_s3:2+q15f_attn1_s3:2+q19f_r13_s0+q19f_drop1_s0+q19f_r13_s1+q19f_drop1_s1+q19f_r13_s2+q19f_drop1_s2+q19f_r13_s3+q19f_drop1_s3",
+  "post": null
+ },
+ "s34": {
+  "spec": "=s31",
+  "post": "t2_far_suppress.py D=3 days=all"
+ },
+ "s38": {
+  "spec": "=s31",
+  "post": "t2_far_suppress.py D=3 days=weekday"
+ },
+ "s40": {
+  "spec": "=s31",
+  "post": "t2_far_gate.py D=3 (same day + same slot on 3 earlier days)"
+ },
+ "s35": {
+  "spec": "v14af:8+q24f_attnglob_s0:2+q24f_attnwp05_s0:2+q24f_attn1_s0:2+q24f_drop1_s0+q24f_attnglob_s1:2+q24f_attnwp05_s1:2+q24f_attn1_s1:2+q24f_drop1_s1+q24f_attnglob_s2:2+q24f_attnwp05_s2:2+q24f_attn1_s2:2+q24f_drop1_s2+q24f_attnglob_s3:2+q24f_attnwp05_s3:2+q24f_attn1_s3:2+q24f_drop1_s3+q24f_r13_s0+q24f_r13_s1+q24f_r13_s2+q24f_r13_s3",
+  "post": "t2_far_suppress.py D=3",
+  "note": "NN members without time/static columns (ZERO=pos+tod+dow+capl+lanes+length+vf+w)"
+ },
+ "s36": {
+  "spec": "v14af:8+q26f_attnglob_s0:2+q26f_attnwp05_s0:2+q26f_attn1_s0:2+q26f_drop1_s0+q26f_attnglob_s1:2+q26f_attnwp05_s1:2+q26f_attn1_s1:2+q26f_drop1_s1+q26f_attnglob_s2:2+q26f_attnwp05_s2:2+q26f_attn1_s2:2+q26f_drop1_s2+q26f_attnglob_s3:2+q26f_attnwp05_s3:2+q26f_attn1_s3:2+q26f_drop1_s3+q26f_r13_s1:1.333333+q26f_r13_s2:1.333333+q26f_r13_s3:1.333333",
+  "post": "t2_far_suppress.py D=3",
+  "note": "RSTAT=1 (per-lane capacity ratios, M5 audit H2: not the intended relation); q26f_r13_s0 diverged (NaN) and is left out, r13 weight kept"
+ },
+ "s37": {
+  "spec": "q24f_attnglob_s0:2+q24f_attnwp05_s0:2+q24f_attn1_s0:2+q24f_drop1_s0+q24f_attnglob_s1:2+q24f_attnwp05_s1:2+q24f_attn1_s1:2+q24f_drop1_s1+q24f_attnglob_s2:2+q24f_attnwp05_s2:2+q24f_attn1_s2:2+q24f_drop1_s2+q24f_attnglob_s3:2+q24f_attnwp05_s3:2+q24f_attn1_s3:2+q24f_drop1_s3+q24f_r13_s0+q24f_r13_s1+q24f_r13_s2+q24f_r13_s3",
+  "post": "t2_far_suppress.py D=3",
+  "note": "s35 without the LightGBM member"
+ }
+}

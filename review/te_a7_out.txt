@@ -1,0 +1,28 @@
+﻿
+=== D12_I5_S: births with a queue-free corridor history: 1381
+  rank by qcap        : hit@1 0.16  hit@3 0.37
+  rank by surplus     : hit@1 0.07  hit@3 0.20
+  rank by sur_cap     : hit@1 0.12  hit@3 0.28
+  rank by q_trend_cap : hit@1 0.05  hit@3 0.15
+  surplus at birth (max over j-1..j+1) median 1.025 p25 1.014 | corridor median 1.000
+
+=== D7_I10_W: births with a queue-free corridor history: 215
+  rank by qcap        : hit@1 0.01  hit@3 0.02
+  rank by surplus     : hit@1 0.41  hit@3 0.70
+  rank by sur_cap     : hit@1 0.40  hit@3 0.70
+  rank by q_trend_cap : hit@1 0.42  hit@3 0.68
+  surplus at birth (max over j-1..j+1) median 1.143 p25 1.024 | corridor median 1.000
+
+=== D7_I210_E: births with a queue-free corridor history: 1187
+  rank by qcap        : hit@1 0.19  hit@3 0.22
+  rank by surplus     : hit@1 0.00  hit@3 0.01
+  rank by sur_cap     : hit@1 0.01  hit@3 0.04
+  rank by q_trend_cap : hit@1 0.04  hit@3 0.08
+  surplus at birth (max over j-1..j+1) median 1.015 p25 1.003 | corridor median 1.000
+
+=== D7_I10_E: births with a queue-free corridor history: 1804
+  rank by qcap        : hit@1 0.02  hit@3 0.06
+  rank by surplus     : hit@1 0.01  hit@3 0.04
+  rank by sur_cap     : hit@1 0.02  hit@3 0.06
+  rank by q_trend_cap : hit@1 0.01  hit@3 0.04
+  surplus at birth (max over j-1..j+1) median 1.014 p25 1.004 | corridor median 1.000

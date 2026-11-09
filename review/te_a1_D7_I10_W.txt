@@ -1,0 +1,43 @@
+﻿
+=== D7_I10_W train: queue-steps 4162  stable 578  n_links 107
+ head share (top6): L10W-298(i28):0.35, L10W-212(i26):0.13, L10W-204(i27):0.13, L10W-246(i25):0.07, L10W-051(i5):0.04, L10W-078(i29):0.03
+ structure at b (share of queue-steps): lane_drop 0.24 cap_drop 0.37 onramp 0.54
+ stable-queue discharge by head (Q/cap_b):
+                                                steps  qb_med  qh_med  qb1_med  vb_med    q10    q90
+L10W-298(i28) cap_b=9432 L5->5 capL 1486->1886    382   0.645   0.658    0.644   0.883  0.624  0.663
+L10W-051(i5) cap_b=6086 L4->3 capL 2029->2029      45   0.984   1.080    0.986   1.015  0.959  1.007
+L10W-212(i26) cap_b=7675 L6->3 capL 1277->2558     35   0.905   0.901    0.900   0.674  0.866  0.929
+L10W-204(i27) cap_b=7430 L3->5 capL 2558->1486     33     NaN   0.836    0.821     NaN    NaN    NaN
+L10W-078(i29) cap_b=6086 L5->3 capL 1886->2029     30   1.000   0.991    0.987   0.985  0.946  1.019
+L10W-275(i42) cap_b=6941 L4->4 capL 2156->1735     14   0.877   0.882    0.897   0.998  0.518  0.895
+L10W-071(i48) cap_b=8093 L4->4 capL 1991->2023      7   0.670   0.481    0.635   1.015  0.621  0.691
+L10W-142(i16) cap_b=9043 L4->5 capL 2257->1809      6   0.686   0.554      NaN   0.989  0.677  0.696
+ onset events 68: pre-max Q[b]/cap_b median 0.915 (p10 0.636, p90 0.994); post median 0.802; drop ratio post/pre median 0.867
+
+=== D7_I10_W validation: queue-steps 553  stable 101  n_links 107
+ head share (top6): L10W-298(i28):0.41, L10W-212(i26):0.16, L10W-204(i27):0.16, L10W-246(i25):0.08, L10W-275(i42):0.03, L10W-159(i22):0.02
+ structure at b (share of queue-steps): lane_drop 0.21 cap_drop 0.33 onramp 0.55
+ stable-queue discharge by head (Q/cap_b):
+                                                steps  qb_med  qh_med  qb1_med  vb_med    q10    q90
+L10W-298(i28) cap_b=9432 L5->5 capL 1486->1886     69   0.640   0.652    0.645   0.883  0.627  0.658
+L10W-212(i26) cap_b=7675 L6->3 capL 1277->2558     16   0.891   0.896    0.899   0.665  0.865  0.922
+L10W-204(i27) cap_b=7430 L3->5 capL 2558->1486      7     NaN   0.851    0.814     NaN    NaN    NaN
+L10W-275(i42) cap_b=6941 L4->4 capL 2156->1735      6   0.905   0.890    0.882   0.976  0.724  0.933
+L10W-190(i38) cap_b=6206 L4->3 capL 2052->2069      2   0.770   0.665    0.791   1.010  0.770  0.770
+L10W-078(i29) cap_b=6086 L5->3 capL 1886->2029      1   0.997   0.976    1.003   0.858  0.997  0.997
+ onset events 13: pre-max Q[b]/cap_b median 0.742 (p10 0.534, p90 0.983); post median 0.829; drop ratio post/pre median 0.852
+
+=== D7_I10_W private: queue-steps 429  stable 76  n_links 107
+ head share (top6): L10W-298(i28):0.34, L10W-204(i27):0.14, L10W-212(i26):0.11, L10W-246(i25):0.05, L10W-275(i42):0.03, L10W-078(i29):0.03
+ structure at b (share of queue-steps): lane_drop 0.19 cap_drop 0.38 onramp 0.56
+ stable-queue discharge by head (Q/cap_b):
+                                                 steps  qb_med  qh_med  qb1_med  vb_med    q10    q90
+L10W-298(i28) cap_b=9432 L5->5 capL 1486->1886      47   0.650   0.655    0.651   0.883  0.624  0.667
+L10W-204(i27) cap_b=7430 L3->5 capL 2558->1486      10     NaN   0.835    0.809     NaN    NaN    NaN
+L10W-365(i91) cap_b=10143 L5->5 capL 1788->2029      5   0.563   0.710    0.768   1.002  0.540  0.587
+L10W-078(i29) cap_b=6086 L5->3 capL 1886->2029       5   1.006   0.972    1.009   0.998  0.999  1.012
+L10W-275(i42) cap_b=6941 L4->4 capL 2156->1735       4   0.647   0.450    0.691   1.030  0.608  0.846
+L10W-142(i16) cap_b=9043 L4->5 capL 2257->1809       2   0.621   0.780    0.642   0.973  0.620  0.623
+L10W-302(i40) cap_b=6653 L4->4 capL 2261->1663       2   0.921   0.923      NaN   0.651  0.919  0.922
+L10W-212(i26) cap_b=7675 L6->3 capL 1277->2558       1     NaN   0.915    0.893     NaN    NaN    NaN
+ onset events 16: pre-max Q[b]/cap_b median 0.770 (p10 0.672, p90 0.988); post median 0.776; drop ratio post/pre median 0.985

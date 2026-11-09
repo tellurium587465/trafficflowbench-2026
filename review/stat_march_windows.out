@@ -1,0 +1,9 @@
+﻿D7_I10_E   observed share 0.496  blank rows(all links NaN) 0.020  onset 0 (day>=10: 0)  ongoing 5
+D7_I10_W   observed share 0.509  blank rows(all links NaN) 0.020  onset 0 (day>=10: 0)  ongoing 1
+D7_I210_E  observed share 0.518  blank rows(all links NaN) 0.020  onset 0 (day>=10: 0)  ongoing 5
+D7_I210_W  observed share 0.469  blank rows(all links NaN) 0.020  onset 0 (day>=10: 0)  ongoing 5
+D7_I405_N  observed share 0.539  blank rows(all links NaN) 0.020  onset 0 (day>=10: 0)  ongoing 5
+D7_I405_S  observed share 0.474  blank rows(all links NaN) 0.020  onset 0 (day>=10: 0)  ongoing 5
+D12_I5_N   observed share 0.498  blank rows(all links NaN) 0.020  onset 0 (day>=10: 0)  ongoing 2
+D12_I5_S   observed share 0.507  blank rows(all links NaN) 0.020  onset 0 (day>=10: 0)  ongoing 3
+total {'queue_onset': 0, 'queue_ongoing': 31} from day 10 on {'queue_onset': 0, 'queue_ongoing': 2}

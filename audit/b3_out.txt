@@ -1,0 +1,4 @@
+rows 1637760 250538 220589 30s
+held-out ['D7_I405_N', 'D12_I5_S'] Feb template targets n=220589: linear RMSE v 8.74 q/lane 109.1
+  all features         gapml RMSE v 7.13 (iter 2606)  q/lane 75.3 (iter 1638)  521s
+  no tod/dow/static    gapml RMSE v 7.60 (iter 2962)  q/lane 73.7 (iter 2462)  962s
