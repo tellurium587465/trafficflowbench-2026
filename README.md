@@ -154,7 +154,7 @@ long part.
 - **External data: none.** No road-network files, map services, weather, calendars, public traffic feeds, pretrained weights
   or paid APIs. Every input comes from the competition release. None of the finals (A25, B7c, nor the alternative A22c) uses synthetic
   data; A22c's April networks (q24m) add all of March to the training months (ruling 748789). An earlier candidate A (finA5 / finA6,
-  `e4f` / `e4tfm4`) trained its April networks on synthetic windows from `twin/gen_clean.py` (technical report, Section 8).
+  `e4f` / `e4tfm4`) trained its April networks on synthetic windows from `twin/gen_clean.py` (the report, Section VI-F, Table X).
 - **Licences.** This code: MIT (`LICENSE`). Direct dependencies: NumPy, pandas, SciPy, scikit-learn and PyTorch (BSD-style),
   PyArrow (Apache-2.0), LightGBM (MIT). The competition data stay under the competition's rules; the window features in the
   asset archive are derived from them.
@@ -191,8 +191,8 @@ kernel's `BASE` string.
 
 ## Licence and acknowledgement
 
-MIT (`LICENSE`). The analysis and code were developed with AI assistance (Claude); design decisions, numbers and their
-provenance are recorded in the decision ledger of the technical report.
+MIT (`LICENSE`). The analysis and code were developed with AI assistance (Claude); the author directed the work and made
+the final decisions (the report's Acknowledgment).
 
 sha256 of `submission.csv` in the submitted files: finA25 `139592a38586a256336bb11243dd6d91d960d374e6da87732b6169b74bbff01d` (A25t), finA22c `2a2bd56c4190fc7b0f11fa2eef7011cce23598a55856ba191dc418a6a3942841` (A22ct), finB7c `eac4a4c8df3796274574db5a4c6c9dd67fcd6ab54fdfcf2dd45e074d6eb1ab45`
 (B7ct); the full list with the earlier finals is in
